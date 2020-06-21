@@ -10,7 +10,6 @@
     e.preventDefault()
     errorContainer.innerText = ''
     const email = emailInput.value || ''
-    console.log(email)
 
     if (!emailReg.test(email)) {
       errorContainer.innerText = 'Please enter a valid email.'
