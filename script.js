@@ -30,10 +30,10 @@
       }
   
       submitButton.disabled = true
-      emailInput.setValue('')
+      emailInput.value = ''
     } catch (e) {
+      console.error(e)
       errorContainer.innerText = 'Could not reach server.'
-      return
     }
   })
 })()
