@@ -61,6 +61,19 @@ img.background {
   margin-top: 8px;
   text-transform: uppercase;
 }
+.content .error {
+  display: inline-block;
+  margin-top: 8px;
+  background: rgb(231, 69, 69);
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+}
+.content .error:empty {
+  display: none;
+}
 
 @media screen and (max-width: 680px) {
   .content {

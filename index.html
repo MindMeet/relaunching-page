@@ -6,7 +6,7 @@
 		<link async href="https://fonts.googleapis.com/css?family=Work+Sans:500,400,700,300,200,100" rel="stylesheet">
 		<link async href="https://fonts.googleapis.com/css?family=Oswald:200,600" rel="stylesheet">
 		<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-		<meta name="theme-color" content="#dc3522">
+		<link rel="icon" href="./favicon.ico" />
 		<title>MindMeet</title>
 	</head>
 	<body class="container">
@@ -20,12 +20,14 @@
 					<p>Relaunching soon. Join our mailing list and we'll keep you updated!</p>
 				</main>
 				<footer>
-					<form>
-						<input type="email" placeholder="Enter your email address" name="email" />
-						<button>Join Mailing List</button>
+					<form id="form">
+						<input type="email" placeholder="Enter your email address" name="email" id='email' />
+						<button id='button'>Join Mailing List</button>
+						<span class="error" id="error"></span>
 					</form>
 				</footer>
 			</div>
 		</div>
 	</body>
+	<script type='text/javascript' src='./script.js'></script>
 </html>
