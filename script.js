@@ -21,8 +21,8 @@
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          body: JSON.stringify({ email })
-        }
+        },
+        body: JSON.stringify({ email })
       })
       const json = await res.json()
       if (res.status !== 200) {
